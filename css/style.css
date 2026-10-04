@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Parent */
+.top-nav-bar {
+    min-height: 100px;
+    width: 100%;
+    background-color: #0F1111;
+    color: #ffffff;
+}
+
+/* Child */
+/* Left Nav (Logo + Location) */
+.nav-bar-left {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+.nav-logo img {
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+.nav-logo p {
+    margin: 5px 0 0 0;
+    float: left;
+    width: 50%;
+}
+
+/* Center Nav (Search) */
+.nav-bar-search {
+    float: left;
+    width: 55%;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-bar-search select {
+    float: left;
+    width: 10%;
+    height: 40px;
+}
+
+.nav-bar-search input {
+    float: left;
+    width: 80%;
+    height: 40px;
+}
+
+.nav-bar-search button {
+    float: left;
+    width: 10%;
+    height: 40px;
+}
+
+/* Right Nav (Language,Account,Order,Cart) */
+.nav-bar-right {
+    float: right;
+    width: 25%;
+    padding-top: 20px;
+
+}
+.nav-bar-language {
+    float: right;
+    width: 25%;
+}
+
+.nav-bar-signup {
+    float: right;
+    width: 25%;
+}
+
+.nav-bar-orders {
+    float: right;
+    width: 25%;
+}
+
+.nav-bar-cart {
+    float: right;
+    width: 25%;
+}
+
+
+
+.nav-bar-right-strong {
+    font-weight: 200px;
+}
