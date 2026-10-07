@@ -85,8 +85,44 @@
     width: 25%;
 }
 
-
-
 .nav-bar-right-strong {
     font-weight: 200px;
 }
+
+
+/* Bottom Nav Bar  */
+.bottom-nav-bar {
+    width: 100%;
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+/* No margin and padding to stick the top nav bar */
+    margin: 0;
+    padding: 0; 
+}
+
+.bottom-nav-left{
+    float: left;
+    padding-left: 0px;
+    margin: 0;
+}
+
+/* Each tab */
+.bottom-nav-left li {
+    float: left;
+    padding: 10px 10px;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+/* Bold Weight of All */
+.tab-font-weight {
+    font-weight: bold;
+}
+
+.bottom-nav-right{
+    float: right;
+    padding: 10px 10px;
+    margin: 0;
+}
+
