@@ -120,9 +120,25 @@
     font-weight: bold;
 }
 
+/* Promotion wordings in right bottom nav bar */
 .bottom-nav-right{
     float: right;
     padding: 10px 10px;
     margin: 0;
 }
 
+/* Promotion Product Block */
+.promotion-product-block {
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 10px;
+}
+
+.promotion-product-cards img {
+    float:left;
+    width: 20%;
+    height: 50%;
+    padding: 5px;
+}
