@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+/* To Keep Navagation and Back to top bar till end of footer, all are full width */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
 /* First Block of Top Navagation Bar */
 /* Parent */
 .top-nav-bar {
